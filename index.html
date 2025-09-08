@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <div class="container mt-5 mb-2  ">
+        <div class="row gap-2">
+            <div class=" weather-app text-center mb-4 p-4 d-flex flex-column justify-content-center align-items-center"
+                data-aos="zoom-in" data-aos-delay="10" data-aos-duration="800">
+                <h1 class="fw-bolder mb-5 ">Weathery</h1>
+                <h2 class="text-white fw-bold fs-3 mb-5">Find the weather of any city<h2>
+                        <p class="fs-4 mb-5 ">Enter the name of the city to get the weather</p>
+                        <input type="search"
+                            class="input-search form-control mb-4  text-center fs-4 border border-top-0 border-end-0 border-start-0 border-primary-subtle border-3"
+                            placeholder="Search For A City" id="userInput">
+
+                        <button id="btn" type="button" class="btn btn-primary fs-5 fw-bold">Get Weather</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex flex-column ">
+        <div class=" row all d-flex justify-content-center align-items-center gap-2" id="myData">
+            <div class="custom-loader"></div>
+        </div>
+    </div>
+
+
+    <script src="js/style.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("../images/defaults.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.weather-app {
+    background-color: rgba(31, 142, 179, 0.4);
+    border-radius: 20px;
+
+}
+
+.weather-app p {
+    color: rgb(241, 235, 235);
+}
+
+h1 {
+    color: #162556;
+    font-size: 3rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: none;
+    color: #162556;
+    font-weight: bold;
+    background-color: rgba(31, 142, 179, 0.5);
+}
+
+.input-search {
+    background-color: rgba(31, 142, 179, 0.5);
+}
+
+.form-control::placeholder {
+    color: #f2efb6;
+}
+
+.btn {
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    width: 20%;
+    border-radius: 100%;
+}
+.custom-loader {
+    width: 50px;
+    height: 50px;
+    --c: radial-gradient(farthest-side, #766DF4 92%, #0000);
+    background:
+        var(--c) 50% 0,
+        var(--c) 50% 100%,
+        var(--c) 100% 50%,
+        var(--c) 0 50%;
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    animation: s8 1s infinite;
+    position: relative;
+}
+
+.custom-loader::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: 3px;
+    background: repeating-conic-gradient(#0000 0 35deg, #766DF4 0 90deg);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 3px), #000 0);
+    border-radius: 50%;
+}
+
+@keyframes s8 {
+    100% {
+        transform: rotate(.5turn)
+    }
+}
+
+.fa-solid {
+    color: #717170;
+}
+
+.child {
+    background-color: rgba(31, 142, 179, 0.7);
+    border-radius: 20px;
+}
+
+.child2 {
+    background-color: rgba(31, 142, 179, 0.6);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px cyan;
+}
