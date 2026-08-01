@@ -6,7 +6,7 @@ A modern and responsive weather application built with **HTML, CSS, and JavaScri
 
 ## 🌐 Live Demo
 
-👉 https://YOUR-VERCEL-LINK.vercel.app
+👉 https://weather-app-kohl-six-xhyko409ml.vercel.app/
 
 ---
 
