@@ -88,4 +88,4 @@ The project is deployed on **Vercel**.
 **Mohamed Ismail**
 
 - GitHub: https://github.com/Mohamedxismail
-- LinkedIn: https://www.linkedin.com/in/mohamedxismail
+- LinkedIn: www.linkedin.com/in/mohamed-ismail-81217a33b
