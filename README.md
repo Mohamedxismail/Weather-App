@@ -31,6 +31,15 @@ A modern and responsive weather application built with **HTML, CSS, and JavaScri
 - Font Awesome
 - Vercel
 
+
+##  📸 Screenshots
+
+<p align="center">
+  <img src="Weather.png" alt="Home" width="32%">
+  <img src="weather%20status.png" alt="Current Weather" width="32%">
+  <img src="weather%20status%202.png" alt="Forecast" width="32%">
+</p>
+
 ---
 
 ## ⚙️ Installation
